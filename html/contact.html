@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="generate color palette with Javascript" />
+    <meta name="keywords" content="JavaScript, Color spaces, CSS, Color palette, Color quantization" />
+    <meta name="author" content="Agbor Temitope" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUFA</title>
+    <link rel="icon" href="../assets/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contact.css">
+
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav>
+        <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+                <img src="../assets/logo.png" class="logo" onclick="window.location.href='index.html'" alt="logo" />
+              
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <!-- links -->
+            <ul class="links">
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="register.html">Register</a>
+                </li>
+
+            </ul>
+            <ul>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Contact Us -->
+
+    <section id="contact">
+
+        <div class="wrapper">
+            <form class="form">
+                <div class="pageTitle title">Get In Touch</div>
+                <div class="secondaryTitle title">Please fill this form</div>
+                <input type="text" name="name" class="name formEntry" required placeholder="Name" />
+                <input type="text" name="email" class="email formEntry" required placeholder="Email" />
+                <textarea class="message formEntry" name="message" required placeholder="Message"></textarea>
+                <input type="checkbox" class="termsConditions" value="Term">
+                <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> &
+                    <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+                <button class="submit formEntry" type="submit" onclick="thanks()">Submit</button>
+                <!-- socials -->
+                    <div class="social-menu">
+                        <ul>
+                            <li><a href="" target="blank"><i class="fab fa-facebook"></i></i></a></li>
+                            <li><a href="https://www.instagram.com/stepup.fa/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/" target="blank"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter" target="blank"></i></a></li>
+                        </ul>
+                </div>
+                
+            </form>
+            
+        
+        </div>
+    </section>
+
+   
+
+
+
+
+    <!-- javascript -->
+    <script src="../js/nav.js"></script>
+    <script src="contact.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+</body>
+
+</html>
